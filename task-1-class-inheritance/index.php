@@ -13,7 +13,7 @@ class Circle extends Shape {
 
     public function area_calculation()
     {
-        return pi() * pow($this->radius, 2);
+        return 3.1416 * pow($this->radius, 2);
     }
 }
 
